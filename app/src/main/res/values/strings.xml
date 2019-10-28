@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"><font fgcolor='#f2ca30' face="sans-serif">BeatRun</font></string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_x="3dp"
+            android:layout_y="0dp"
+            android:background="#020202"
+            android:clickable="true"
+            android:contentDescription="@string/todo"
+            android:focusable="auto"
+            android:maxWidth="@android:dimen/thumbnail_width"
+            android:maxHeight="@android:dimen/thumbnail_height"
+            android:minWidth="@android:dimen/thumbnail_width"
+            android:minHeight="@android:dimen/thumbnail_width"
+            android:onClick="imageButton"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+
+    </WebView>
+
+
+</FrameLayout>
